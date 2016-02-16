@@ -2,6 +2,4 @@ DEFAULT_GATEWAY: 192.168.1.0 # router default gateway
 NETMASK_BITS: 24 # netmask bits to scan
 DATABASE_URL: www.example.com/db.xlsx #set to 'offlinedb' if using a database that's not using an online database like google sheets.
 DB_SHEET: MACs # set spreadsheets sheet name
-SCAN_INTERVAL: 1 # interval for network to scan for people
-DB_RELOAD_INTERVAL: 1 # interval that database should be updated
-
+API_PORT: 8080 # api port for json data on who's online
